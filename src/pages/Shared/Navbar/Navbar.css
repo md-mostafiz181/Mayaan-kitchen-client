@@ -1,0 +1,41 @@
+
+
+.nav-bar li a {
+    display: inline-block !important;
+    color: white !important;
+    background: transparent !important;
+    transition: .5s;
+    position: relative;
+    margin-right: 10px;
+    border: none !important;
+    outline: none !important; 
+    
+    
+    
+}
+
+.nav-bar li a:focus {
+    outline: none !important; 
+    box-shadow: none !important; 
+}
+
+.nav-bar li a::after {
+    content: "";
+    width: 0%;
+    height: 5px;
+    background: green;
+    bottom: -5px;
+    left: 0;
+    position: absolute;
+    border-radius: 5px;
+    transition: .4s;
+}
+
+.nav-bar li a:hover::after {
+    width: 100%;
+}
+
+.nav-bar li a:hover {
+    background-color: transparent !important;
+    color: green !important;
+}

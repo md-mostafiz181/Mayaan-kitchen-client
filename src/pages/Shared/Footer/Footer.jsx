@@ -3,9 +3,9 @@ import Container from "../../../components/Container/Container";
 
 const Footer = () => {
   return (
-    <div className="bg-base-200 text-base-content">
+    <div className="bg-base-200 text-base-content mx-auto">
       <Container>
-      <footer className="footer  p-10">
+      <footer className="footer  ">
         <aside>
           <svg
             width="50"
