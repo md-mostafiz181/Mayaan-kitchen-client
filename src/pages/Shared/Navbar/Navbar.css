@@ -1,4 +1,6 @@
-
+#navbar-part{
+    background: rgba(0, 0, 0, 0.452);
+}
 
 .nav-bar li a {
     display: inline-block !important;
@@ -23,7 +25,7 @@
     content: "";
     width: 0%;
     height: 5px;
-    background: green;
+    background: #f97316;
     bottom: -5px;
     left: 0;
     position: absolute;
@@ -37,5 +39,5 @@
 
 .nav-bar li a:hover {
     background-color: transparent !important;
-    color: green !important;
+    color: #f97316 !important;
 }

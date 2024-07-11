@@ -6,34 +6,34 @@ const Navbar = () => {
   const navOptions = (
     <div className="nav-bar lg:flex ">
       <li>
-        <a className="uppercase lg:text-[15px] sm:text-[10px] font-bold">
+        <a className="uppercase lg:text-[15px] sm:text-[10px] font-bold primaryFont" >
           Home
         </a>
       </li>
       <li>
-        <a className="uppercase lg:text-[15px] sm:text-[10px] font-bold">
+        <a className="uppercase lg:text-[15px] sm:text-[10px] font-bold primaryFont">
           Contact
         </a>
       </li>
       <li>
-        <a className="uppercase lg:text-[15px] sm:text-[10px] font-bold">
+        <a className="uppercase lg:text-[15px] sm:text-[10px] font-bold primaryFont">
           our menu
         </a>
       </li>
       <li>
-        <a className="uppercase lg:text-[15px] sm:text-[10px] font-bold">
-          shop
+        <a className="uppercase lg:text-[15px] sm:text-[10px] font-bold primaryFont">
+         Our shop
         </a>
       </li>
       <li>
-        <a className="uppercase lg:text-[15px] sm:text-[10px] font-bold">
+        <a className="uppercase lg:text-[15px] sm:text-[10px] font-bold primaryFont">
           dashboard
         </a>
       </li>
     </div>
   );
   return (
-    <div className="bg-orange-300">
+    <div id="navbar-part" className="fixed z-30 w-full">
       <Container>
         <div className="navbar ">
           <div className="navbar-start">
@@ -60,12 +60,12 @@ const Navbar = () => {
               </div>
               <ul
                 tabIndex={0}
-                className="menu menu-sm dropdown-content bg-green-400 rounded-box  mt-3"
+                className="menu menu-sm dropdown-content z-20 bg-orange-400 rounded-box  mt-3"
               >
                 {navOptions}
               </ul>
             </div>
-            <a className="lg:text-xl sm:text-[10px] lg:uppercase font-normal  ">
+            <a className="lg:text-xl sm:text-[10px] lg:uppercase text-white secondaryFont font-normal  ">
               Mayaan Kitchen
             </a>
           </div>
