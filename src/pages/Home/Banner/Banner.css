@@ -1,0 +1,135 @@
+
+#banner-part .banner1{
+    width: 100%;
+    background: url(../../../assets/pizza.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 450px 0;
+    position: relative;
+}
+
+#banner-part .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.589);
+}
+
+
+#banner-part .banner2{
+    width: 100%;
+    background: url(../../../assets/dessert.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 200px 0;
+    position: relative;
+}
+#banner-part .banner3{
+    width: 100%;
+    background: url(../../../assets/drinks.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 200px 0;
+    position: relative;
+}
+#banner-part .banner4{
+    width: 100%;
+    background: url(../../../assets/salad.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 200px 0;
+    position: relative;
+}
+#banner-part .banner5{
+    width: 100%;
+    background: url(../../../assets/soup.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 200px 0;
+    position: relative;
+}
+#banner-part .banner6 {
+    width: 100%;
+    background: url(../../../assets/pizza.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 200px 0;
+    position: relative;
+}
+
+#banner-part .icon{
+    transition: .4s;
+}
+#banner-part .youtube:hover .icon{
+    color: #f97316;
+}
+
+#banner-part .youtube{
+    transition: .4s;
+
+}
+
+#banner-part .youtube:hover{
+    background-color: white;
+    cursor: pointer;
+}
+
+#banner-part .facebook:hover .icon{
+    color: #f97316;
+}
+
+#banner-part .facebook{
+    transition: .4s;
+
+}
+
+#banner-part .facebook:hover{
+    background-color: white;
+    cursor: pointer;
+}
+#banner-part .twitter:hover .icon{
+    color: #f97316;
+}
+
+#banner-part .twitter{
+    transition: .4s;
+
+}
+
+#banner-part .twitter:hover{
+    background-color: white;
+    cursor: pointer;
+}
+#banner-part .instagram:hover .icon{
+    color: #f97316;
+}
+
+#banner-part .instagram{
+    transition: .4s;
+
+}
+
+#banner-part .instagram:hover{
+    background-color: white;
+    cursor: pointer;
+}
+
+
+#banner-part .banner-button{
+    display: inline-block; 
+    padding: 15px 25px;
+    background-color: transparent;
+    border-radius: 10px;
+    border: 1px solid white;
+    transition: .5s;
+    color: #f97316;
+}
+
+#banner-part .banner-button:hover{
+    background-color: #f97316;
+    cursor: pointer;
+    color: white;
+    border: 1px solid #f97316;
+}
