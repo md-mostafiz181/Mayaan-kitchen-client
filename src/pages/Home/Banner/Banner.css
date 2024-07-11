@@ -23,7 +23,7 @@
     background: url(../../../assets/dessert.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 200px 0;
+    padding: 450px 0;
     position: relative;
 }
 #banner-part .banner3{
@@ -31,7 +31,7 @@
     background: url(../../../assets/drinks.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 200px 0;
+    padding: 450px 0;
     position: relative;
 }
 #banner-part .banner4{
@@ -39,7 +39,7 @@
     background: url(../../../assets/salad.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 200px 0;
+    padding: 450px 0;
     position: relative;
 }
 #banner-part .banner5{
@@ -47,7 +47,7 @@
     background: url(../../../assets/soup.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 200px 0;
+    padding: 450px 0;
     position: relative;
 }
 #banner-part .banner6 {
@@ -55,7 +55,7 @@
     background: url(../../../assets/pizza.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 200px 0;
+    padding: 450px 0;
     position: relative;
 }
 
@@ -132,4 +132,60 @@
     cursor: pointer;
     color: white;
     border: 1px solid #f97316;
+}
+
+#banner-part .swiper-button-next{
+    background: #f97316;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    transition: .4s;
+   
+    
+}
+
+
+
+
+#banner-part .swiper-button-next:hover{
+    background-color: white;
+    
+}
+
+
+
+#banner-part .swiper-button-next::after{
+    color: white;
+    font-size: 20px;
+    transition: .4s;
+}
+
+#banner-part .swiper-button-next:hover::after{
+    color: #f97316;
+}
+
+
+
+#banner-part .swiper-button-prev{
+    background: #f97316;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    transition: .4s;
+}
+
+#banner-part .swiper-button-prev:hover{
+    background-color: white;
+    transition: .4s;
+}
+
+#banner-part .swiper-button-prev:hover::after{
+    color: #f97316;
+}
+
+
+
+#banner-part .swiper-button-prev::after{
+    color: white;
+    font-size: 20px;
 }
