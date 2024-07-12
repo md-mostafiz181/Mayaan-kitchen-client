@@ -17,15 +17,17 @@ import "./Order.css";
 const Order = () => {
   return (
     <div id="order-part">
-      <section className="mb-4">
+      
+
+      <div>
+        <Container>
+
+        <section className="mb-4">
         <SectionTitle
           subHeading={"From 11 a.m to 10 p.m"}
           heading={"Order Online"}
         ></SectionTitle>
       </section>
-
-      <div>
-        <Container>
           <Swiper
             slidesPerView={3}
             spaceBetween={30}
