@@ -1,0 +1,24 @@
+#Latest-part{
+    background: url(../../../assets/Latest_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px 10px;
+    position: relative;
+   
+}
+
+#Latest-part .overlay{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    
+}
+
+
+
+
+
+
