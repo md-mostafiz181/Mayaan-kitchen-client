@@ -1,20 +1,47 @@
-#Latest-part{
-    background: url(../../../assets/Latest_bg.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 200px 10px;
+#Latest-part {
+  background: url(../../../assets/Latest_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 200px 10px;
+  position: relative;
+
+  
+
+}
+
+#Latest-part .section-title h1, 
+#Latest-part .section-title p {
+    color: white;
+}
+
+#Latest-part .latest-box1{
     position: relative;
+    overflow: hidden;
+    transition: .4s;
+}
+
+#Latest-part .latest-box1 img{
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transform: scale(1.2);
+    transition: .4s;
    
 }
 
-#Latest-part .overlay{
+#Latest-part .latest-box1:hover img{
+    opacity: 1;
+    transform: scale(1);
+   
+}
+
+#Latest-part .latest-box1 .overlay{
     position: absolute;
-    top:0;
-    left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.5);
-    
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.603);
 }
 
 
