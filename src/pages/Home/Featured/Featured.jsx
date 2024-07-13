@@ -15,8 +15,8 @@ const Featured = () => {
       <Container>
           <section className="mt-5">
             <SectionTitle
-              subHeading={"check it out"}
-              heading={"From our menu"}
+              subHeading={"Discover"}
+              heading={"where vision meets reality"}
             ></SectionTitle>
           </section>
 
@@ -25,9 +25,11 @@ const Featured = () => {
               <div className="img1 border">
                 <img className="w-full" src={featured1} alt="" />
               </div>
-              <div className="img2"></div>
+              <div className="img2 hidden lg:block border-2 w-[40%]">
+                <img src={featured2} alt="" />
+              </div>
             </div>
-            <div className="text mt-5">
+            <div className="text mt-40">
               <h1 className="primaryFont text-white text-4xl font-bold">Where Flavor Meets Elegance</h1>
               <p className="secondaryFont text-white text-xl font-bold mt-5" >
                 Experience The Pinnacle Of Healthy Food Dining With Our Award

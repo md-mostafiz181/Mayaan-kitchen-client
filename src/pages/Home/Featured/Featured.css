@@ -5,6 +5,7 @@
     padding: 100px 10px;
     position: relative;
     z-index: 1;
+    background-attachment: fixed;
 
 }
 
@@ -17,4 +18,14 @@
     position: absolute;
     z-index: -1;
     
+}
+
+#featured-part .image{
+    position: relative;
+}
+
+#featured-part .image .img2 {
+    position: absolute;
+    bottom: -71px;
+    right: -122px;
 }
