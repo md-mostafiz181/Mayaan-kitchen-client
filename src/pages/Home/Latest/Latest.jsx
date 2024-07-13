@@ -11,7 +11,7 @@ import Container from "../../../components/Container/Container";
 
 const Latest = () => {
   return (
-    <div id="Latest-part" className="bg-fixed">
+    <div id="Latest-part" >
       <Container>
         <div className="section-title">
           <section className="mt-4">
@@ -22,7 +22,7 @@ const Latest = () => {
         <div className="overlay"></div>
 
         <div className="latest-main grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-3 mt-5">
-          <div className="latest-box1 w-full h-[400px]  border">
+          <div className="latest-box1 w-full h-[400px] ">
             <img src={img1} alt="" />
             <div className="overlay">
               <h1 className="text-white secondaryFont lg:text-3xl sm:text-2xl mt-20 text-center">
@@ -38,7 +38,7 @@ const Latest = () => {
               </h5>
             </div>
           </div>
-          <div className="latest-box1 w-full h-[400px]  border">
+          <div className="latest-box1 w-full h-[400px] ">
             <img src={img2} alt="" />
             <div className="overlay">
               <h1 className="text-white secondaryFont lg:text-3xl sm:text-2xl mt-20 text-center">
@@ -54,7 +54,7 @@ const Latest = () => {
               </h5>
             </div>
           </div>
-          <div className="latest-box1 w-full h-[400px]  border">
+          <div className="latest-box1 w-full h-[400px] ">
             <img src={img3} alt="" />
             <div className="overlay">
               <h1 className="text-white secondaryFont lg:text-3xl sm:text-2xl mt-20 text-center">
@@ -70,7 +70,7 @@ const Latest = () => {
               </h5>
             </div>
           </div>
-          <div className="latest-box1 w-full h-[400px]  border">
+          <div className="latest-box1 w-full h-[400px] ">
             <img src={img4} alt="" />
             <div className="overlay">
               <h1 className="text-white secondaryFont lg:text-3xl sm:text-2xl mt-20 text-center">
@@ -86,7 +86,7 @@ const Latest = () => {
               </h5>
             </div>
           </div>
-          <div className="latest-box1 w-full h-[400px]  border">
+          <div className="latest-box1 w-full h-[400px] ">
             <img src={img5} alt="" />
             <div className="overlay">
               <h1 className="text-white secondaryFont lg:text-3xl sm:text-2xl mt-20 text-center">
@@ -102,7 +102,7 @@ const Latest = () => {
               </h5>
             </div>
           </div>
-          <div className="latest-box1 w-full h-[400px]  border">
+          <div className="latest-box1 w-full h-[400px] ">
             <img src={img6} alt="" />
             <div className="overlay">
               <h1 className="text-white secondaryFont lg:text-3xl sm:text-2xl mt-20 text-center">
