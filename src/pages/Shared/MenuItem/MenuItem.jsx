@@ -8,7 +8,7 @@ const MenuItem = ({item}) => {
     return (
         <div>
             <div className="menu-main flex justify-center border mt-5 p-3 hover:shadow-lg">
-                <div className="menu-img w-[300px]">
+                <div className="menu-img  w-[60%]">
                     <img className='rounded ' src={image} alt="" />
                 </div>
                 <div className="menu-text ml-4">
