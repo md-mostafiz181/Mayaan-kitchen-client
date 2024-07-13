@@ -39,6 +39,8 @@ const Featured = () => {
                 Ingredients That Are Maintained And Cooked By Our Own Expert
                 Cheifs.
               </p>
+
+              <button class="custom-btn btn-15 mt-20 primaryFont">Read More</button>
             </div>
           </div>
 

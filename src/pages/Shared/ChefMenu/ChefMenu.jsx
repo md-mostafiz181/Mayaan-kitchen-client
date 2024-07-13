@@ -23,7 +23,7 @@ const ChefMenu = ({ item }) => {
             <p className="text-normal primaryFont">{recipe}</p>
             <p className="font-bold  text-orange-400 text-xl">${price}</p>
             <div className="card-actions justify-center">
-            <button class="custom-btn btn-3 uppercase "><span className="font-bold">add to cart</span></button>
+            <button class="custom-btn1 btn-3 uppercase "><span className="font-bold">add to cart</span></button>
             </div>
           </div>
         </div>
