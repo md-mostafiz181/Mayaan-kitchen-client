@@ -8,14 +8,14 @@ import quality3 from "../../../assets/quality3.jpg";
 import quality4 from "../../../assets/quality4.jpg";
 import quality5 from "../../../assets/quality5.jpg";
 import quality6 from "../../../assets/quality6.jpg";
-import { FaPlus } from "react-icons/fa";
+
 
 const Quality = () => {
   return (
     <div id="quality-part">
       <Container>
-        <div className="overlay">
-          <div className="section-title mt-5">
+
+      <div className="section-title mb-5">
             <section>
               <SectionTitle
                 subHeading="why choose us"
@@ -23,6 +23,8 @@ const Quality = () => {
               ></SectionTitle>
             </section>
           </div>
+        <div className="overlay">
+          
         </div>
 
         <div className="quality-main grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-2">
