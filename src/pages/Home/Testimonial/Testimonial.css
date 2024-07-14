@@ -1,5 +1,9 @@
 #testimonial-part{
-    padding: 100px 0;
+    background: url(../../../assets//testimonial_bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px 10px;
+    background-attachment: fixed;
 }
 
 
@@ -29,11 +33,71 @@
 #testimonial-part .extra-box{
     width: 50px;
     height: 60px;
-    background-color: black;
+    background-color: white;
     position: absolute;
     top: 0;
     left: 0;
     clip-path: polygon(0 0, 0% 100%, 89% 0);
     overflow: hidden;
 }
+
+
+
+
+#testimonial-part .swiper-button-next{
+    background: #f97316;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    transition: .4s;
+   
+    
+}
+
+
+
+
+#testimonial-part .swiper-button-next:hover{
+    background-color: white;
+    
+}
+
+
+
+#testimonial-part .swiper-button-next::after{
+    color: white;
+    font-size: 20px;
+    transition: .4s;
+}
+
+#testimonial-part .swiper-button-next:hover::after{
+    color: #f97316;
+}
+
+
+
+#testimonial-part .swiper-button-prev{
+    background: #f97316;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    transition: .4s;
+}
+
+#testimonial-part .swiper-button-prev:hover{
+    background-color: white;
+    transition: .4s;
+}
+
+#testimonial-part .swiper-button-prev:hover::after{
+    color: #f97316;
+}
+
+
+
+#testimonial-part .swiper-button-prev::after{
+    color: white;
+    font-size: 20px;
+}
+
 

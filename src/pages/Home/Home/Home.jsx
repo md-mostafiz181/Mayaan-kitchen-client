@@ -8,6 +8,7 @@ import Chef from '../../Chef/Chef';
 import Featured from '../Featured/Featured';
 import Testimonial from '../Testimonial/Testimonial';
 import Container from '../../../components/Container/Container';
+import Offer from '../Offer/Offer';
 
 const Home = () => {
     return (
@@ -19,7 +20,8 @@ const Home = () => {
            <Quality></Quality>
            <Chef></Chef>
            <Featured></Featured>
-           <Container><Testimonial></Testimonial></Container>
+           <Offer></Offer>
+           <Testimonial></Testimonial>
            
         </div>
     );
