@@ -1,0 +1,104 @@
+#footer-part{
+    padding: 100px 10px;
+}
+
+#footer-part nav h6{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+
+}
+
+#footer-part nav a{
+    color: white;
+    font-size: 20px; 
+    font-weight: bold;
+    margin-top: 15px;
+    text-decoration: none;
+    position: relative;
+    transition: .4s;
+}
+
+#footer-part nav a::after{
+    content: "";
+    width: 0%;
+    height: 5px;
+    bottom: -10px;
+    left: 0;
+    background-color: #f97316;
+    position: absolute;
+    border-radius: 5px;
+    transition: .4s;
+}
+
+#footer-part nav a:hover::after{
+    width: 100%;
+    
+
+}
+
+#footer-part nav a:hover{
+    color: #f97316;
+    
+}
+
+#footer-part .icon{
+    transition: .4s;
+}
+#footer-part .youtube:hover .icon{
+    color: #f97316;
+    
+    
+}
+
+#footer-part .youtube{
+    transition: .4s;
+
+}
+
+#footer-part .youtube:hover{
+    background-color: white;
+    cursor: pointer;
+}
+
+#footer-part .facebook:hover .icon{
+    color: #f97316;
+}
+
+#footer-part .facebook{
+    transition: .4s;
+
+}
+
+#footer-part .facebook:hover{
+    background-color: white;
+    cursor: pointer;
+}
+#footer-part .twitter:hover .icon{
+    color: #f97316;
+}
+
+#footer-part .twitter{
+    transition: .4s;
+
+}
+
+#footer-part .twitter:hover{
+    background-color: white;
+    cursor: pointer;
+}
+#footer-part .instagram:hover .icon{
+    color: #f97316;
+}
+
+#footer-part .instagram{
+    transition: .4s;
+
+}
+
+#footer-part .instagram:hover{
+    background-color: white;
+    cursor: pointer;
+}
