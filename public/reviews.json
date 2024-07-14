@@ -4,15 +4,15 @@
         "name": "Jane Doe",
         "image":"https://images.pexels.com/photos/2381069/pexels-photo-2381069.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         "designation": "ceo of meta.inc",
-        "details": "Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like). It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+        "details": "Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like). It is a long  looking at its layout.",
         "rating": 3
     },
     {
         "_id": "643010f9f5a7e52ce1e8fa66",
-        "name": "John Doe",
+        "name": "Emily Smith",
         "image":"https://images.pexels.com/photos/8171195/pexels-photo-8171195.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         "designation": "ceo of meta.inc",
-        "details": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)",
+        "details": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. Variou humour and the like)",
         "rating": 2
     },
     {
@@ -20,7 +20,7 @@
         "name": "MJ Doe",
         "image":"https://images.pexels.com/photos/1181519/pexels-photo-1181519.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         "designation": "ceo of meta.inc",
-        "details": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)",
+        "details": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. Various  and the like)",
         "rating": 5
     },
     {

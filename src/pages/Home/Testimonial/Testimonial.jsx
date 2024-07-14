@@ -49,13 +49,14 @@ const Testimonial = () => {
                 review.map(review=> <SwiperSlide
                 key={review._id}
                 >
-                    <div className="w-full bg-orange-400 rounded-lg">
-                        <div className="image-box w-[20%] h[20%] bg-green-500">
+                    <div className="testimonial-main w-full h-[300px] bg-orange-400 rounded-lg text-white p-5">
+                        <div className="extra-box"></div>
+                        <div className="image-box ">
                             <img src={review.image} alt="" />
                         </div>
-                        <p>{review.name}</p>
-                        <p>{review.designation}</p>
-                        <p>{review.details}</p>
+                        <p className="primaryFont text-2xl font-bold text-center mt-3">{review.name}</p>
+                        <p className="secondaryFont text-xl font-bold text-center mt-2 ">{review.designation}</p>
+                        <p className="px-3 text-center">{review.details}</p>
                     </div>
                 </SwiperSlide>)
             }
@@ -70,3 +71,5 @@ const Testimonial = () => {
 };
 
 export default Testimonial;
+
+
