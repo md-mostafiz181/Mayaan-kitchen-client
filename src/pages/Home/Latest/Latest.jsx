@@ -29,7 +29,7 @@ const Latest = () => {
                 Pizza
               </h1>
               <p className="text-white text-center lg:text-2xl sm:text-xl font-bold primaryFont mt-7">
-                Delicious pizza is like a slice of happiness, with each bite
+                Pizza is like a happiness,
                 
               </p>
 
@@ -45,7 +45,7 @@ const Latest = () => {
                 Burger
               </h1>
               <p className="text-white text-center lg:text-2xl sm:text-xl font-bold primaryFont mt-7">
-                Delicious Burger is like a slice of happiness, with each bite
+                Burger is like a happiness,
                 
               </p>
 
@@ -61,7 +61,7 @@ const Latest = () => {
                 Pasta
               </h1>
               <p className="text-white text-center lg:text-2xl sm:text-xl font-bold primaryFont mt-7">
-                Delicious pasta is like a slice of happiness, with each bite
+                Pasta is like a happiness,
                 
               </p>
 
@@ -77,7 +77,7 @@ const Latest = () => {
                 Dessert
               </h1>
               <p className="text-white text-center lg:text-2xl sm:text-xl font-bold primaryFont mt-7">
-                Delicious dessert is like a slice of happiness, with each bite
+                Dessert is like a  happiness, 
                 
               </p>
 
@@ -93,7 +93,7 @@ const Latest = () => {
                 Grapes
               </h1>
               <p className="text-white text-center lg:text-2xl sm:text-xl font-bold primaryFont mt-7">
-                Delicious grapes is like a slice of happiness, with each bite
+                 Grapes is like a happiness,
                 
               </p>
 
@@ -109,7 +109,7 @@ const Latest = () => {
                 Snacks
               </h1>
               <p className="text-white text-center lg:text-2xl sm:text-xl font-bold primaryFont mt-7">
-                Delicious snacks is like a slice of happiness, with each bite
+                 Snacks is like a happiness.
                 
               </p>
 

@@ -1,14 +1,15 @@
 import React from "react";
 import Container from "../../../components/Container/Container";
 import "./Navbar.css";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const navOptions = (
     <div className="nav-bar lg:flex ">
       <li>
-        <a className="uppercase lg:text-[15px] sm:text-[10px] font-bold primaryFont" >
+        <Link to="/" className="uppercase lg:text-[15px] sm:text-[10px] font-bold primaryFont" >
           Home
-        </a>
+        </Link>
       </li>
       <li>
         <a className="uppercase lg:text-[15px] sm:text-[10px] font-bold primaryFont">
@@ -16,9 +17,9 @@ const Navbar = () => {
         </a>
       </li>
       <li>
-        <a className="uppercase lg:text-[15px] sm:text-[10px] font-bold primaryFont">
+        <Link to="/menu" className="uppercase lg:text-[15px] sm:text-[10px] font-bold primaryFont">
           our menu
-        </a>
+        </Link>
       </li>
       <li>
         <a className="uppercase lg:text-[15px] sm:text-[10px] font-bold primaryFont">

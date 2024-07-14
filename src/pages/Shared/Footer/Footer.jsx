@@ -20,7 +20,7 @@ const Footer = () => {
         </aside>
         <nav >
           <h6 >Services</h6>
-          <a className="link link-hover">Cooking</a>
+          <a className="link link-hover ">Cooking</a>
           <a className="link link-hover">Taking order</a>
           <a className="link link-hover">Marketing</a>
           <a className="link link-hover">Advertisement</a>

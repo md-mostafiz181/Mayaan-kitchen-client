@@ -7,12 +7,16 @@ import PopularMenu from '../PopularMenu/PopularMenu';
 import Chef from '../../Chef/Chef';
 import Featured from '../Featured/Featured';
 import Testimonial from '../Testimonial/Testimonial';
-import Container from '../../../components/Container/Container';
 import Offer from '../Offer/Offer';
+import { Helmet } from 'react-helmet-async';
 
 const Home = () => {
     return (
         <div>
+
+            <Helmet>
+                <title>Kitchen || Home </title>
+            </Helmet>
            <Banner></Banner>
            <Order></Order>
            <Latest></Latest>
