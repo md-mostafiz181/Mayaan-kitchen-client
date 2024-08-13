@@ -6,7 +6,7 @@ const Menu = () => {
     return (
         <div>
             <Helmet>
-                <title>Kitchen || Menu</title>
+                <title>Kitchen || Our Menu</title>
             </Helmet>
         </div>
     );
