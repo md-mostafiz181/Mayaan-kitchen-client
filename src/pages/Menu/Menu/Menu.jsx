@@ -17,7 +17,7 @@ const Menu = () => {
             </Helmet>
 
             <Cover img={menuImg} title="our menu" subTitle="would you like to try dish?"></Cover>
-            <PopularMenu></PopularMenu>
+            {/* <PopularMenu></PopularMenu>
             <Cover img={dessertBg} title="dessert" subTitle="would you like to try dish?"></Cover>
             <PopularMenu></PopularMenu>
             <Cover img={pizzaBg} title="pizza" subTitle="would you like to try dish?"></Cover>
@@ -25,7 +25,7 @@ const Menu = () => {
             <Cover img={saladBg} title="salad" subTitle="would you like to try dish?"></Cover>
             <PopularMenu></PopularMenu>
             <Cover img={soupBg} title="soup" subTitle="would you like to try dish?"></Cover>
-            <PopularMenu></PopularMenu>
+            <PopularMenu></PopularMenu> */}
         </div>
     );
 };
