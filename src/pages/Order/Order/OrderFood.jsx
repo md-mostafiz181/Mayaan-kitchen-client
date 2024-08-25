@@ -8,6 +8,7 @@ import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 import Container from '../../../components/Container/Container';
 import useMenu from '../../../hooks/useMenu';
+import OrderFoodCard from '../../../components/OrderFoodCard/OrderFoodCard';
 
 
 const OrderFood = () => {
@@ -24,7 +25,7 @@ const OrderFood = () => {
 
 
     return (
-        <div>
+        <div >
 
             <Helmet
             title='Bistro || Our Shop'
@@ -40,7 +41,16 @@ const OrderFood = () => {
                     <Tab>Desserts</Tab>
                     <Tab>Drinks</Tab>
                 </TabList>
-                <TabPanel></TabPanel>
+                <TabPanel>
+                    <div className='grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-2 px-1'>
+                    {
+                        salad.map(item => <OrderFoodCard
+                        key={item._id}
+                        item={item}
+                        ></OrderFoodCard>)
+                    }
+                    </div>
+                </TabPanel>
                 <TabPanel></TabPanel>
                 <TabPanel></TabPanel>
                 <TabPanel></TabPanel>
