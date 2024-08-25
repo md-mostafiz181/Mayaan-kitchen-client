@@ -12,6 +12,7 @@ import useMenu from '../../../hooks/useMenu';
 import SectionTitle from '../../../components/SectionTitle/SectionTitle';
 import Container from '../../../components/Container/Container';
 import MenuCategory from '../MenuCategory/MenuCategory';
+import "./Menu.css"
 
 const Menu = () => {
 
@@ -34,7 +35,7 @@ const Menu = () => {
                 <MenuCategory items={offered}></MenuCategory>
 
                 <div className="card-actions justify-center px-3 py-3">
-                <button class="custom-btn1 btn-3 uppercase "><span className="font-bold">Ordered Your Favorite Food</span></button>
+                <button class="addBtn uppercase "><span className="font-bold">Ordered Your Favorite Food</span></button>
                 </div>
 
                 
@@ -43,21 +44,33 @@ const Menu = () => {
             <Cover img={dessertBg} title="Dessert" subTitle="would you like to try dish?"></Cover>
             <Container>
             <MenuCategory items={desserts} ></MenuCategory>
+            <div className="card-actions justify-center px-3 py-3">
+                <button class="addBtn uppercase "><span className="font-bold">Ordered Your Favorite Food</span></button>
+                </div>
             </Container>
 
             <Cover img={saladBg} title="Salad" subTitle="would you like to try dish?"></Cover>
             <Container>
             <MenuCategory items={salad} ></MenuCategory>
+            <div className="card-actions justify-center px-3 py-3">
+                <button class="addBtn uppercase "><span className="font-bold">Ordered Your Favorite Food</span></button>
+                </div>
             </Container>
 
             <Cover img={pizzaBg} title="pizza" subTitle="would you like to try dish?"></Cover>
             <Container>
             <MenuCategory items={pizza} ></MenuCategory>
+            <div className="card-actions justify-center px-3 py-3">
+                <button class="addBtn uppercase "><span className="font-bold">Ordered Your Favorite Food</span></button>
+                </div>
             </Container>
 
             <Cover img={soupBg} title="soup" subTitle="would you like to try dish?"></Cover>
             <Container>
             <MenuCategory items={soup} ></MenuCategory>
+            <div className="card-actions justify-center px-3 py-3">
+                <button class="addBtn uppercase "><span className="font-bold">Ordered Your Favorite Food</span></button>
+                </div>
             </Container>
 
            
