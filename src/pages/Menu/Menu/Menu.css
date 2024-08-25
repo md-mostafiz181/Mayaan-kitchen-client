@@ -1,14 +1,15 @@
 .addBtn{
     display: inline-block;
     padding: 10px 20px;
-    background-color: orange;
+    background-color: orange transparent;
     border-radius: 10px;
-    color: white;
+    color: orange;
     transition: .4s;
-    
+    border-bottom: 5px solid orange;
 }
 
 .addBtn:hover{
-    background-color: rgba(255, 166, 0, 0.623);
+    background-color: orange;
+    color: white;
     
 }

@@ -22,9 +22,9 @@ const Navbar = () => {
         </Link>
       </li>
       <li>
-        <a className="uppercase lg:text-[15px] sm:text-[10px] font-bold primaryFont">
+        <Link to="/order" className="uppercase lg:text-[15px] sm:text-[10px] font-bold primaryFont">
          Our shop
-        </a>
+        </Link>
       </li>
       <li>
         <a className="uppercase lg:text-[15px] sm:text-[10px] font-bold primaryFont">
