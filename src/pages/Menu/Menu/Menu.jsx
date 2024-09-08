@@ -32,46 +32,13 @@ const Menu = () => {
             
             <Container>
                 <SectionTitle subHeading="Don't miss" heading="Today's offered"></SectionTitle>
-                <MenuCategory items={offered}></MenuCategory>
-
-                <div className="card-actions justify-center px-3 py-3">
-                <button class="addBtn uppercase "><span className="font-bold">Ordered Your Favorite Food</span></button>
-                </div>
-
-                
+                <MenuCategory items={offered} ></MenuCategory> 
             </Container>
 
-            <Cover img={dessertBg} title="Dessert" subTitle="would you like to try dish?"></Cover>
-            <Container>
-            <MenuCategory items={desserts} ></MenuCategory>
-            <div className="card-actions justify-center px-3 py-3">
-                <button class="addBtn uppercase "><span className="font-bold">Ordered Your Favorite Food</span></button>
-                </div>
-            </Container>
-
-            <Cover img={saladBg} title="Salad" subTitle="would you like to try dish?"></Cover>
-            <Container>
-            <MenuCategory items={salad} ></MenuCategory>
-            <div className="card-actions justify-center px-3 py-3">
-                <button class="addBtn uppercase "><span className="font-bold">Ordered Your Favorite Food</span></button>
-                </div>
-            </Container>
-
-            <Cover img={pizzaBg} title="pizza" subTitle="would you like to try dish?"></Cover>
-            <Container>
-            <MenuCategory items={pizza} ></MenuCategory>
-            <div className="card-actions justify-center px-3 py-3">
-                <button class="addBtn uppercase "><span className="font-bold">Ordered Your Favorite Food</span></button>
-                </div>
-            </Container>
-
-            <Cover img={soupBg} title="soup" subTitle="would you like to try dish?"></Cover>
-            <Container>
-            <MenuCategory items={soup} ></MenuCategory>
-            <div className="card-actions justify-center px-3 py-3">
-                <button class="addBtn uppercase "><span className="font-bold">Ordered Your Favorite Food</span></button>
-                </div>
-            </Container>
+            <MenuCategory items={desserts} title="Dessert" img={dessertBg}></MenuCategory>
+            <MenuCategory items={salad} title="Salad" img={saladBg}></MenuCategory>
+            <MenuCategory items={pizza} title="pizza" img={pizzaBg}></MenuCategory>
+            <MenuCategory items={soup} img={soupBg} title="soup"></MenuCategory>
 
            
 

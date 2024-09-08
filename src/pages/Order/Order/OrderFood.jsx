@@ -9,19 +9,21 @@ import 'react-tabs/style/react-tabs.css';
 import Container from '../../../components/Container/Container';
 import useMenu from '../../../hooks/useMenu';
 import OrderFoodCard from '../../../components/OrderFoodCard/OrderFoodCard';
+import OrderTab from '../OrderTab/OrderTab';
+import { useParams } from 'react-router-dom';
 
 
 const OrderFood = () => {
 
     const [tabIndex, setTabIndex]=useState(0)
     const [menu]=useMenu();
-    console.log(menu)
-
+    const {category}=useParams();
+    console.log(category)
     const desserts=menu.filter(item=> item.category === "dessert")
     const pizza=menu.filter(item=> item.category === "pizza")
     const salad=menu.filter(item=> item.category === "salad")
     const soup=menu.filter(item=> item.category === "soup")
-    const offered=menu.filter(item=> item.category === "offered")
+    const drinks=menu.filter(item=> item.category === "drinks")
 
 
     return (
@@ -42,19 +44,20 @@ const OrderFood = () => {
                     <Tab>Drinks</Tab>
                 </TabList>
                 <TabPanel>
-                    <div className='grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-2 px-1'>
-                    {
-                        salad.map(item => <OrderFoodCard
-                        key={item._id}
-                        item={item}
-                        ></OrderFoodCard>)
-                    }
-                    </div>
+                    <OrderTab items={salad}></OrderTab>
                 </TabPanel>
-                <TabPanel></TabPanel>
-                <TabPanel></TabPanel>
-                <TabPanel></TabPanel>
-                <TabPanel></TabPanel>
+                <TabPanel>
+                <OrderTab items={pizza}></OrderTab>
+                </TabPanel>
+                <TabPanel>
+                <OrderTab items={soup}></OrderTab>
+                </TabPanel>
+                <TabPanel>
+                <OrderTab items={desserts}></OrderTab>
+                </TabPanel>
+                <TabPanel>
+                <OrderTab items={drinks}></OrderTab>
+                </TabPanel>
                 </Tabs>
             </Container>
         </div>
