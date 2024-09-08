@@ -34,8 +34,7 @@ import { Link } from "react-router-dom";
 import Container from "../../../components/Container/Container";
 
 const MenuCategory = ({ items, title, img }) => {
-    console.log(title)
-    console.log(items)
+
 
   return (
     <div>

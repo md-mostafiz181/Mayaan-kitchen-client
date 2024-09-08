@@ -14,11 +14,13 @@ import { useParams } from 'react-router-dom';
 
 
 const OrderFood = () => {
-
-    const [tabIndex, setTabIndex]=useState(0)
-    const [menu]=useMenu();
-    const {category}=useParams();
+    const categories= ["salad", "pizza", "soup", "desserts", "drinks"]
+    const category=useParams();
     console.log(category)
+    const initialIndex=categories.indexOf(category)
+    const [tabIndex, setTabIndex]=useState(initialIndex)
+    const [menu]=useMenu();
+
     const desserts=menu.filter(item=> item.category === "dessert")
     const pizza=menu.filter(item=> item.category === "pizza")
     const salad=menu.filter(item=> item.category === "salad")
@@ -35,10 +37,10 @@ const OrderFood = () => {
             <Cover img={coverImg} title={" our shop"} subTitle={"Would you like to try dish?"}></Cover>
 
             <Container>
-            <Tabs defaultIndex={tabIndex} onSelect={(index) => setTabIndex(index)}>
+            <Tabs className="text-center font-bold text-[#f97316] primaryFont" defaultIndex={tabIndex} onSelect={(index) => setTabIndex(index)}>
                 <TabList>
-                    <Tab>Salad</Tab>
-                    <Tab>Pizza</Tab>
+                    <Tab >Salad</Tab>
+                    <Tab >Pizza</Tab>
                     <Tab>Soup</Tab>
                     <Tab>Desserts</Tab>
                     <Tab>Drinks</Tab>

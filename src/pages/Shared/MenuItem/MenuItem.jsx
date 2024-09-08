@@ -4,7 +4,7 @@ import "./MenuItem.css"
 const MenuItem = ({item}) => {
 
     const {image,name,recipe,price}=item;
-    console.log(item)
+  
     return (
         <div>
             <div className="menu-main flex justify-center border mt-5 p-3 hover:shadow-lg h-[200px]">

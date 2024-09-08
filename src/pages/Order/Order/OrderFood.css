@@ -1,0 +1,8 @@
+.react-tabs__tab-list {
+    border-bottom: none !important;
+}
+
+.react-tabs__tab {
+    border: none !important;
+    
+}
