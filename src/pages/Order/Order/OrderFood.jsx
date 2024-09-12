@@ -8,7 +8,6 @@ import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 import Container from '../../../components/Container/Container';
 import useMenu from '../../../hooks/useMenu';
-import OrderFoodCard from '../../../components/OrderFoodCard/OrderFoodCard';
 import OrderTab from '../OrderTab/OrderTab';
 import { useParams } from 'react-router-dom';
 
@@ -16,7 +15,6 @@ import { useParams } from 'react-router-dom';
 const OrderFood = () => {
     const categories= ["salad", "pizza", "soup", "desserts", "drinks"]
     const category=useParams();
-    console.log(category)
     const initialIndex=categories.indexOf(category)
     const [tabIndex, setTabIndex]=useState(initialIndex)
     const [menu]=useMenu();
@@ -29,7 +27,7 @@ const OrderFood = () => {
 
 
     return (
-        <div >
+        <div  >
 
             <Helmet
             title='Bistro || Our Shop'
@@ -37,7 +35,7 @@ const OrderFood = () => {
             <Cover img={coverImg} title={" our shop"} subTitle={"Would you like to try dish?"}></Cover>
 
             <Container>
-            <Tabs className="text-center font-bold text-[#f97316] primaryFont" defaultIndex={tabIndex} onSelect={(index) => setTabIndex(index)}>
+            <Tabs className="mt-4 font-bold text-[#f97316] primaryFont " defaultIndex={tabIndex} onSelect={(index) => setTabIndex(index)}>
                 <TabList>
                     <Tab >Salad</Tab>
                     <Tab >Pizza</Tab>
@@ -47,6 +45,7 @@ const OrderFood = () => {
                 </TabList>
                 <TabPanel>
                     <OrderTab items={salad}></OrderTab>
+                    
                 </TabPanel>
                 <TabPanel>
                 <OrderTab items={pizza}></OrderTab>
